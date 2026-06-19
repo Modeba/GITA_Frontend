@@ -5,6 +5,7 @@ body {
   background-color: #a06be0;
 }
 
+/*Card block*/
 .card {
   width: 700px;
   margin: 0 auto;
@@ -12,6 +13,7 @@ body {
   padding: 50px 70px 70px;
 }
 
+/*Title*/
 .faq-title {
   font-size: 32px;
   margin: 0 0;
@@ -19,21 +21,17 @@ body {
 }
 
 .faq-list {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 .faq-item {
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid #b2b2b2;
   padding: 18px 0;
 }
 
 .faq-item summary {
   font-weight: bold;
-}
-
-.faq-item summary::-webkit-details-marker {
-  display: none;
 }
 
 .faq-answer {
