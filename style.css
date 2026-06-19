@@ -1,31 +1,23 @@
 body {
   margin: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(160deg, #a06be0, #6a6aef);
+  padding: 200px 500px;
+  background-color: #a06be0;
 }
 
 .card {
   width: 700px;
+  margin: 0 auto;
   background: #ffffff;
-  border-radius: 28px;
   padding: 50px 70px 70px;
 }
 
 .faq-title {
-  text-align: center;
   font-size: 32px;
-  letter-spacing: 1px;
-  width: fit-content;
-  margin: 0 auto 30px;
-  padding: 6px 14px;
+  margin: 0 0;
+  padding: 0px 300px;
 }
 
 .faq-list {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -36,34 +28,15 @@ body {
 }
 
 .faq-item summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   font-weight: bold;
-  font-size: 16px;
-  color: #1c1c2e;
-  cursor: pointer;
-  list-style: none;
 }
 
 .faq-item summary::-webkit-details-marker {
   display: none;
 }
 
-.faq-item summary::after {
-  content: "\25BC";
-  color: #e0734d;
-  font-size: 12px;
-  margin-left: 12px;
-}
-
-.faq-item details[open] summary::after {
-  content: "\25B2";
-}
-
 .faq-answer {
   margin: 12px 0 0;
   color: #777;
   font-size: 14px;
-  line-height: 1.5;
 }
